@@ -35,7 +35,7 @@ endpointyx(){
       echo "warp File exists"
     else
       echo "warp File does not exist, downloading..."
-      curl -L -o war -# --retry 2 https://proxy.freecdn.ml?url=https://gitlab.com/rwkgyg/CFwarp/raw/main/point/$(archAffix)
+      curl -L -o warp -# --retry 2 https://proxy.freecdn.ml?url=https://gitlab.com/rwkgyg/CFwarp/raw/main/point/$(archAffix)
     fi
     
     # 取消 Linux 自带的线程限制，以便生成优选 Endpoint IP
